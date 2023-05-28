@@ -8,7 +8,7 @@
         <h2>Gestion de Curso</h2>
         <div class="card">
             <div class="card-body">
-                <form action="" method="POST">
+                <form action="/registrarCurso/" method="POST">{% csrf_token %}
                     <div class="form-group">
                         <input type="text" id="txtCodigo" name="txtCodigo" class="form-control" placeholder="Código" minlength="6" maxlength="10" required>
                     </div>
@@ -34,6 +34,7 @@
                         <th>Código</th>
                         <th>Nombre</th>
                         <th>Créditos</th>
+                        <th colspan="2">Opciones</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,6 +43,8 @@
                         <td>{{c.codigo}}</td>
                         <td>{{c.nombre}}</td>
                         <td>{{c.creditos}}</td>
+                        <td><a href="edicionCurso/{{c.codigo}}" class="btn btn-info">Editar</a></td>
+                        <td><a href="eliminacionCurso/{{c.codigo}}" class="btn btn-danger">Eliminar</a></td>
                     </tr>
                     {% endfor %}
                 </tbody>
