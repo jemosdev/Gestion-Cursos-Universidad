@@ -2,7 +2,7 @@
 This project is part of the YouTube video series of UskoKruM2010 channel.
 
 ### **Description:**
-This project is a CRUD to manage courses.
+This project is a CRUD in Django to manage courses.
 
 ### **Requirements:**
 - Python
