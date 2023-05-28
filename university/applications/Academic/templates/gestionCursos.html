@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>Ya estamos en la página "Gestion de Cursos"</h1>
+    <ul>
+        {% for curso in cursos %}
+        <li>{{curso.nombre}}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
