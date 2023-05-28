@@ -28,10 +28,10 @@ This project is a CRUD in Django to manage courses.
 ### **Views:**
 
 #### -Home:
-![](D:\programming\platzi\codes\flask\app\static\images\signup-taskapp.jpg)
+![](https://github.com/jemosdev/Gestion-Cursos-Universidad/blob/main/gestioncursos01.jpg)
 
 #### -Edition:
-![](D:\programming\platzi\codes\flask\app\static\images\login-taskapp.jpg)
+![](https://github.com/jemosdev/Gestion-Cursos-Universidad/blob/main/gestioncursos02.jpg)
 
 ### Acknowledgements:
 UskoKruM2010 YouTube channel
